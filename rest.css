@@ -1,0 +1,196 @@
+  body{
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-image: url(/) ;   
+    background-color: black; 
+    color: aliceblue;
+    margin: 0;
+
+  }
+/* .img{
+
+    width: 400px;
+    height: 400px;
+    text-align: end;
+    
+
+} */
+.logo{
+    text-align: center;
+    border-radius: 15px;
+    object-fit: cover;
+    border-radius: 3px;
+    transform: scale(0.3s);
+
+}
+.tex{
+    
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: hsl(0, 14%, 92%);
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.text{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: hsl(0, 14%, 92%);
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+h1,h2, p{
+    text-align: center;
+}
+.cont{
+   display: flex;
+   grid-template-columns: repeat(9, 1fr);
+   gap: 15px;
+   padding: 15px;
+  
+ }
+ .loogo{
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    display: grid;
+
+ }
+ 
+ .loogo img{
+    width: 400px;
+    height: 300px;
+    margin: 30px auto;
+    object-fit: cover;
+    border-radius: 5px;
+    transform: scale(0.3s);
+
+
+    
+ }
+ .loogo img:hover{
+    transform: scale(1.05);
+ }
+.card{
+
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+   
+
+}
+.card img{
+ padding: 5px;
+ margin: 0;
+}
+
+
+.qol{
+    display: flex;
+    gap: 450px;
+    color: blue;
+    
+}
+.cuno{
+    text-align: center;
+    border-radius: 16px;
+    padding: 30px;
+    height: 500px;
+    
+}
+.bir li{
+    color: crimson;
+    display: flex;
+
+}
+
+.pasta{
+
+    grid-template-columns: repeat(5, 1fr);
+   gap: 30px;
+     display: grid;
+    height: 400px; 
+
+
+    
+}
+.sw{
+    
+        text-align: center;
+        border-radius: 15px;
+        object-fit: cover;
+        border-radius: 3px;
+        transform: scale(0.3s);
+
+}
+.ql{
+     display: flex;
+    color: #e1e6e7;
+    margin-right: 50px;
+    text-align: center; 
+    gap: 380px;
+  
+}
+.fff{
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+      display: grid;
+     height: 400px;    
+      margin-bottom: -20px;
+      border-radius: 5px;
+}
+.h2{
+    margin: 0;
+  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #222;
+    color: white;
+  }
+  
+  header nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  .qudar{
+    text-align: center;
+  }
+  .gap{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    
+  }
+  .webage{
+    margin-bottom: 16px;
+    border-radius: 9px;
+
+  }
+
+
+  @media (max-width: 480px){
+    .cont{
+        grid-template-columns: 1fr;
+        height: 200px;
+    }
+h1{
+  font-size: 20px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  display: inline;
+}
+
+
+}
